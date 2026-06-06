@@ -1,0 +1,106 @@
+# =====================
+# Android / Gradle
+# =====================
+
+# Build outputs
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Gradle wrapper (keep the wrapper jar + properties)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration
+local.properties
+
+# =====================
+# IDE
+# =====================
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# VS Code
+.vscode/
+
+# =====================
+# OS Files
+# =====================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =====================
+# Secrets & Environment
+# =====================
+
+.env
+.env.*
+*.keystore
+*.jks
+google-services.json
+
+# =====================
+# Generated / Binary Docs
+# =====================
+
+# Office documents (too large for git)
+*.pptx
+*.docx
+*.xlsx
+
+# Generated outputs
+outputs/
+
+# =====================
+# Kotlin / Java
+# =====================
+
+# Compiled output
+*.class
+out/
+
+# Log files
+*.log
+
+# =====================
+# Misc
+# =====================
+
+# Coverage reports
+*.exec
+*.ec
+
+# Crash logs
+crash-*.txt
+
+# Room schema exports
+app/schemas/
+
+# Documentation (internal planning docs)
+docs/
+
+# Test sources (not needed for initial push)
+app/src/test/
+app/src/androidTest/
+
+# Signing configs
+signing/
