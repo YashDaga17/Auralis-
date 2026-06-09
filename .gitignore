@@ -62,10 +62,6 @@ google-services.json
 # Generated / Binary Docs
 # =====================
 
-# Office documents (too large for git)
-*.pptx
-*.docx
-*.xlsx
 
 # Generated outputs
 outputs/
@@ -96,7 +92,6 @@ crash-*.txt
 app/schemas/
 
 # Documentation (internal planning docs)
-docs/
 
 # Test sources (not needed for initial push)
 app/src/test/
